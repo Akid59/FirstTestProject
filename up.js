@@ -1,5 +1,3 @@
-var count = 0;
-var quiz = [
 let count = 0;
 let quiz = [
   {
@@ -21,7 +19,6 @@ let quiz = [
 ];
 
 for (var i = 0; i < quiz.length; i++) {
-  var your_answer = prompt(quiz[i].question);
   let your_answer = prompt(quiz[i].question);
   if(your_answer == quiz[i].answer) {
   alert("正解!");
