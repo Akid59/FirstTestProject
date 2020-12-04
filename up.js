@@ -18,7 +18,7 @@ let quiz = [
   },
 ];
 
-for (var i = 0; i < quiz.length; i++) {
+for (let i = 0; i < quiz.length; i++) {
   let your_answer = prompt(quiz[i].question);
   if(your_answer == quiz[i].answer) {
   alert("正解!");
