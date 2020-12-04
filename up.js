@@ -1,5 +1,5 @@
-let count = 0;
-let quiz = [
+var count = 0;
+var quiz = [
   {
     question: "犬は英語でなんと言うでしょう",
     answer: "dog"
@@ -18,8 +18,8 @@ let quiz = [
   },
 ];
 
-for (let i = 0; i < quiz.length; i++) {
-  let your_answer = prompt(quiz[i].question);
+for (var i = 0; i < quiz.length; i++) {
+  var your_answer = prompt(quiz[i].question);
   if(your_answer == quiz[i].answer) {
   alert("正解!");
   count++;
