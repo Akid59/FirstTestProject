@@ -1,5 +1,7 @@
 var count = 0;
 var quiz = [
+let count = 0;
+let quiz = [
   {
     question: "犬は英語でなんと言うでしょう",
     answer: "dog"
